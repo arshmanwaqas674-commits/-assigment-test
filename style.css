@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3414c0;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.form-box {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(23, 9, 226);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+/* Generated Card */
+
+.card {
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gray;
+}
+
+.card h2 {
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 17px;
+}
+ @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
